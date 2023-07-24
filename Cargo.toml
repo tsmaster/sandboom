@@ -1,0 +1,17 @@
+[package]
+name = "sandboom"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { version = "4.0", features = ["derive"] }
+
+#macroquad = { version = "0.4.1"}
+macroquad = { version = "0.3"}
+
+#macroquad-canvas-2d = { version = "0.2.3" }
+#macroquad-canvas = { version = "0.3.2" }
+
+array2d = { version = "0.3.0" }
